@@ -94,8 +94,8 @@ REST_FRAMEWORK = {
 SWAGGER_URL = os.getenv("SWAGGER_URL", 'http://127.0.0.1:8000/')
 
 SPECTACULAR_SETTINGS = {
-    'TITLE': 'TestWallet API',
-    'DESCRIPTION': 'TestWallet API documentation',
+    'TITLE': 'TestProject API',
+    'DESCRIPTION': 'TestProject API documentation',
     'VERSION': '0.0.1',
     'SERVE_INCLUDE_SCHEMA': False,
     'SERVERS': [{'url': SWAGGER_URL}],
